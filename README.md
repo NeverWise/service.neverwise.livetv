@@ -1,2 +1,2 @@
 # service.neverwise.livetv
-NeverWise live TV service
+NeverWise live TV service.

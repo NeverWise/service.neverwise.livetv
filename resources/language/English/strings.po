@@ -1,0 +1,41 @@
+# Kodi Media Center language file
+# Addon Name: NeverWise live TV service
+# Addon id: service.neverwise.livetv
+# Addon Provider: NeverWise
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi Addons\n"
+"Report-Msgid-Bugs-To: <email>\n"
+"POT-Creation-Date: 2016-07-09\n"
+"PO-Revision-Date: 2016-07-09\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30000"
+msgid "Configure the IPTV Simple Client add-on"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Manual update of channels and EPG"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Live TV information updated. If you want to see updates you may need to restart Kodi."
+msgstr ""
+
+msgctxt "#30003"
+msgid "This will replace the old configuration!\n\nContinue?"
+msgstr ""
+
+msgctxt "#30004"
+msgid "IPTV Simple Client configuration is completed! Restart Kodi to watch live TV."
+msgstr ""
+
+msgctxt "#30005"
+msgid "This may take several minutes.\nA notification will appear after the update.\n\nContinue?"
+msgstr ""

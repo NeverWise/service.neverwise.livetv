@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <setting label="30000" type="action" action="RunScript(service.neverwise.livetv, setupiptv)"/>
+  <setting label="30001" type="action" action="RunScript(service.neverwise.livetv, manualupdate)"/>
+  <setting id="update_date" type="text" visible="false" default="1970-01-01 00:00:00.000000"/>
+  <setting id="url_tv_logos" type="text" visible="false" default="https://github.com/NeverWise/repository.neverwise-storage/raw/master/resources/media/tv-logos"/>
+</settings>
