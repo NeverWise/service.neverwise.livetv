@@ -10,12 +10,12 @@ class LiveTV(object):
     monitor = xbmc.Monitor()
 
     while not monitor.abortRequested():
-      if monitor.waitForAbort(1):
+      if monitor.waitForAbort(60):
         break
       if not xbmc.Player().isPlaying() or xbmc.getCondVisibility('Library.IsScanningVideo'):
 
         update_date = nw.addon.getSetting('update_date')
-        update_date = datetime.strptime(update_date, '%Y-%m-%d %H:%M:%S.%f')
+        update_date = nw.strptime(update_date, '%Y-%m-%d %H:%M:%S.%f')
 
         delta_date = datetime.today() - timedelta(days = 1)
 

@@ -45,6 +45,7 @@ def _download_m3u(addon_userdata_path):
   _add_stream(new_m3u, addon_userdata_path, 'ParamountChannel.it', 'TV', 'Paramount_Channel.png', 'Paramount Channel', 'http://viacomitalytest-lh.akamaihd.net/i/sbshdlive_1@195657/master.m3u8')
   _add_stream(new_m3u, addon_userdata_path, 'La7d.it', 'TV', 'LA7d.png', 'LA7d', 'http://se-mi1-5.se.itvmscvas.alice.cdn.interbusiness.it/liveas/cubovision/la7d/v7.m3u8', True)
   _add_stream(new_m3u, addon_userdata_path, 'LA5.it', 'TV', 'La5.png', 'La5', 'http://live3.msf.ticdn.it/Content/HLS/Live/Channel(CH04HA)/Stream(04)/index.m3u8')
+  _add_stream(new_m3u, addon_userdata_path, 'RealTime.it', 'TV', 'RealTime.png', 'RealTime', 'https://sbshdlu3-lh.akamaihd.net/i/sbshdlive_4@99403/master.m3u8')
   _add_stream(new_m3u, addon_userdata_path, 'MediasetExtra.it', 'TV', 'Mediaset_Extra.png', 'Mediaset Extra', 'http://live3.msf.ticdn.it/Content/HLS/Live/Channel(CH09HA)/Stream(04)/index.m3u8')
   _add_stream(new_m3u, addon_userdata_path, 'Italia2.it', 'TV', 'Italia_2.png', 'Italia 2', 'http://live3.msf.ticdn.it/Content/HLS/Live/Channel(CH05HA)/Stream(04)/index.m3u8')
   _add_stream(new_m3u, addon_userdata_path, 'RTL102.5TV.it', 'TV', 'RTL_102.5.png', 'RTL 102.5', 'http://rtl-radio-stream.4mecloud.it/live-video/radiovisione/ngrp:radiovisione/chunklist_b784000.m3u8')
@@ -53,44 +54,23 @@ def _download_m3u(addon_userdata_path):
   _add_stream(new_m3u, addon_userdata_path, 'RaiYoyo.it', 'TV', 'Rai_YoYo.png', 'Rai YoYo', 'http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=72384')
   _add_stream(new_m3u, addon_userdata_path, 'RaiNews.it', 'TV', 'RaiNews24.png', 'RaiNews24', 'http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1')
   _add_stream(new_m3u, addon_userdata_path, 'TG24.it', 'TV', 'Sky_TG_24.png', 'Sky TG 24', 'http://skyianywhere2-i.akamaihd.net/hls/live/200275/tg24/playlist.m3u8')
-  _add_stream(new_m3u, addon_userdata_path, 'DMAX.it', 'TV', 'DMAX.png', 'DMAX', 'https://sbshdlu3-lh.akamaihd.net/i/sbshdlive_4@99403/master.m3u8')
+  _add_stream(new_m3u, addon_userdata_path, 'DMAX.it', 'TV', 'DMAX.png', 'DMAX', 'https://sbshdlu3-lh.akamaihd.net/i/sbshdlive_4@99403/master.m3u8', True)
   _add_stream(new_m3u, addon_userdata_path, 'RaiStoria.it', 'TV', 'Rai_Storia.png', 'Rai Storia', 'http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=24269')
   _add_stream(new_m3u, addon_userdata_path, 'RaiSport1.it', 'TV', 'Rai_Sport_1.png', 'Rai Sport 1', 'http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=4145')
   _add_stream(new_m3u, addon_userdata_path, 'RaiSport2.it', 'TV', 'Rai_Sport_2.png', 'Rai Sport 2', 'http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=179975')
   _add_stream(new_m3u, addon_userdata_path, 'Sportitalia.it', 'TV', 'Sportitalia.png', 'Sportitalia', 'http://195.12.170.153:8003/play/IT-SportItalia', True)
-  _add_stream(new_m3u, addon_userdata_path, 'SuperTennis.it', 'TV', 'SuperTennis.png', 'SuperTennis', 'http://livetok.flash.glb.ipercast.net/supertennis.tv-live/live/playlist.m3u8?id=4OUQM4V4Je_xs790uBB1ZfLZrW4_QmVjgtJP_o-Ek8bRJTFoji8(')
-  _add_stream(new_m3u, addon_userdata_path, 'La3.it', 'TV', 'La3.png', 'La3', 'http://h3ghdchan102-i.akamaihd.net/hls/live/217154/Virtual_Channel102/master.m3u8', True)
+  _add_stream(new_m3u, addon_userdata_path, 'SuperTennis.it', 'TV', 'SuperTennis.png', 'SuperTennis', 'http://livetok.flash.glb.ipercast.net/supertennis.tv-live/live/playlist.m3u8?id=4OUQM4V4Je_xs790uBB1ZfLZrW4_QmVjgtJP_o-Ek8bRJTFoji8(', True)
   _add_stream(new_m3u, addon_userdata_path, 'RaiScuola.it', 'TV', 'Rai_Scuola.png', 'Rai Scuola', 'http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=24268')
   _add_stream(new_m3u, addon_userdata_path, 'VirginTV.it', 'TV', 'Virgin_Radio_TV.png', 'Virgin Radio TV', 'rtmp://fms.105.net:1935/live/virgin1')
+  _add_stream(new_m3u, addon_userdata_path, '???.it', 'TV', '???.png', '???', 'mmsh://mediatv2.topix.it/24RockOne66', True)
   _add_stream(new_m3u, addon_userdata_path, 'ResetRadio.it', 'Radio', 'Reset_Radio.png', 'Reset Radio', 'http://resetradiolive.ns0.it:8000', False, True)
   _add_stream(new_m3u, addon_userdata_path, 'FQRadio.it', 'Radio', 'FQ_Radio.png', 'FQ Radio', 'http://fqradio.ns0.it:8000/;audio.mp3', True, True)
 
   # Add Virgin radios.
-  response = nw.getResponseBS('http://www.virginradio.it/webradio')
+  response = nw.getResponseJson('http://www.virginradio.it/custom_widget/finelco/ws_apps_vrg/getWebRadioList.jsp')
   if response.isSucceeded:
-    divs = response.body.findAll('div', { 'class' : re.compile('.+') })
-    for div in divs:
-      if div['class'].find('overbox_vrg_article_preview_webradio') > -1:
-        radios = div.findAll('div', 'anteprima_articolo article_cont')
-        for radio in radios:
-          img = _makeImageUrl(radio.a.img['data-original'])
-          radio = nw.getResponseBS(radio.a['href'])
-          if radio.isSucceeded:
-            stream = re.search("radioUrl_AdsWizz='(.+?)'", radio.body.renderContents())
-            if stream != None:
-              name = radio.body.head.title.text
-              index = radio.body.head.title.text.find(' - ')
-              if index > -1:
-                name = radio.body.head.title.text[:index]
-              name = re.sub('(?i)webradio ', '', name) # (?i) = ignore case
-              stream = stream.group(1)
-              index = stream.find('?')
-              if index > -1:
-                stream = stream[:index]
-              id_stream = '{0}.it'.format(name.replace(' ', ''))
-              _add_stream(new_m3u, addon_userdata_path, id_stream, 'Radio', img, name, stream, False, True)
-      elif div['class'].find('text_edit') > -1 and div['class'].find('vrg_box_title_webradio') > -1 and div['class'].find('last') > -1:
-        break # Stops "for div in divs:".
+    _setRadiosListItem(response.body['webradios']['webradioChannel'], new_m3u, addon_userdata_path)
+    _setRadiosListItem(response.body['webradios']['musicStar'], new_m3u, addon_userdata_path)
 
   new_m3u.append('#EXT-X-ENDLIST')
 
@@ -158,14 +138,11 @@ def _download_file(from_path, to_path):
         pass
 
 
-def _makeImageUrl(imgUrl):
-  img = re.sub('resizer/[0-9]+/[0-9]+/true', 'upload', imgUrl)
-
-  index = img.find('--')
-  if index > -1:
-    img = img [:index]
-
-  return img
+def _setRadiosListItem(radios, new_m3u, addon_userdata_path):
+  for radio in radios:
+    name = radio['titolo']
+    id_stream = '{0}.it'.format(name.replace(' ', ''))
+    _add_stream(new_m3u, addon_userdata_path, id_stream, 'Radio', radio['immagine']['smartTv'], name, radio['streaming']['iOS'], False, True)
 
 
 def _getUserDataPath():
@@ -243,3 +220,6 @@ if len(sys.argv) > 1:
   elif sys.argv[1] == 'manualupdate':
     if xbmcgui.Dialog().yesno(nw.addonName, nw.getTranslation(30005)):
       doupdate()
+
+elif len(sys.argv) == 1 and sys.argv[0] == 'default.py':
+  nw.addon.openSettings()

@@ -1,2 +1,6 @@
+[B]Version 1.0.1[/B]
+- When user starts addon, the settings are displayed.
+- Minor improvements.
+
 [B]Version 1.0.0[/B]
 - Initial version.
